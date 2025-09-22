@@ -5,10 +5,13 @@
 ## 📂 폴더 구조
 ```
 machine_learning_repo/
+├── models/            # 머신러닝 모델 구현
+│   └── 01_LinearRegression.ipynb
 ├── notes/             # 학습 노트 및 정리
 │   ├── 01_tensor.ipynb
 │   ├── 02_operations.ipynb
-│   └── 03_manipulation.ipynb
+│   ├── 03_manipulation.ipynb
+│   └── 04_autograd.ipynb
 ├── quiz/              # 연습 문제 및 퀴즈
 │   ├── quiz1.ipynb
 │   ├── quiz2.ipynb
@@ -42,5 +45,20 @@ machine_learning_repo/
 
 <br/>
 
+#### 자동미분
+- **Autograd 기초**: requires_grad를 통한 자동미분 설정
+- **역전파**: backward()를 통한 미분값 계산 및 grad 속성 활용
+- **미분 제어**: torch.no_grad()를 통한 연산 그래프 차단
+
+<br/>
+
+### 🤖 머신러닝 모델
+#### 선형 회귀
+- **단일 선형회귀**: nn.Linear를 사용한 기본 선형회귀 구현
+- **신경망 선형회귀**: 은닉층과 활성화 함수를 추가한 비선형 모델
+- **손실함수**: MSELoss와 SGD 옵티마이저를 활용한 학습
+
+<br/>
+
 ---
-*마지막 업데이트: 2025-09-17*
+*마지막 업데이트: 2025-09-22*
