@@ -6,7 +6,9 @@
 ```
 machine_learning_repo/
 ├── models/            # 머신러닝 모델 구현
-│   └── 01_LinearRegression.ipynb
+│   ├── 01_LinearRegression.ipynb
+│   ├── 02_Classification.ipynb
+│   └── data/
 ├── notes/             # 학습 노트 및 정리
 │   ├── 01_tensor.ipynb
 │   ├── 02_operations.ipynb
@@ -60,5 +62,12 @@ machine_learning_repo/
 
 <br/>
 
+#### 분류
+- **로지스틱 회귀**: 이진 분류를 위한 시그모이드 함수와 BCELoss 활용
+- **다항 분류**: FashionMNIST 데이터셋을 활용한 다층 신경망 구현
+- **데이터 로더**: DataLoader와 미니배치를 통한 효율적인 학습
+
+<br/>
+
 ---
-*마지막 업데이트: 2025-09-22*
+*마지막 업데이트: 2025-09-24*
